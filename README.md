@@ -4,6 +4,7 @@ sudo apt update
 sudo apt upgrade  
 
 #chrome install  
+cd Download/
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb  
 sudo apt install gdebi-core  
 sudo gdebi google-chrome-stable_current_amd64.deb  
@@ -26,4 +27,5 @@ find vpn button
 ![vpn](vpn.png)  
 choose openvpn  
 ![choosevpn](choosevpn.png)  
-
+ok  
+![okvpn](okvpn.png)  

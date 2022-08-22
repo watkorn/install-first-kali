@@ -22,4 +22,6 @@ pip3 install -r requirements.txt
 python vol.py -h  
 
 #set openvpn of tryhackme  
+find vpn button  
 ![vpn](vpn.png)  
+

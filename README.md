@@ -29,3 +29,13 @@ choose openvpn
 ![choosevpn](choosevpn.png)  
 ok  
 ![okvpn](okvpn.png)  
+
+#set auto login  
+sudo updatedb  
+cat /etc/X11/default-display-manager  
+locate lightdm.conf  
+sudo nano -l /etc/lightdm/lightdm.conf  
+uncomment line 126 (delete #) and make it look like | autologin-user=kali  
+Ctrl + O to save  
+Ctrl + X to quit  
+reboot  

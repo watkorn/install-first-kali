@@ -38,7 +38,7 @@ python2 -m pip install -U git+https://github.com/volatilityfoundation/volatility
 #set openvpn of tryhackme  
 find vpn button  
 ![vpn](vpn.png)  
-choose import
+choose import  
 ![choosevpn](choosevpn.png)  
 ok  
 ![okvpn](okvpn.png)  

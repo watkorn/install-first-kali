@@ -11,7 +11,7 @@ sudo gdebi google-chrome-stable_current_amd64.deb
 #set chrome to default  
 sudo update-alternatives --config x-www-browser  
 
-#vol3 #python  
+#vol3 #python3  
 cd Desktop/  
 git clone https://github.com/volatilityfoundation/volatility3.git  
 cd volatility3  
@@ -22,10 +22,23 @@ sudo apt-get install libsnappy-dev
 pip3 install -r requirements.txt  
 python vol.py -h  
 
+#vol #pythno2  
+sudo apt install -y build-essential git libdistorm3-dev yara libraw1394-11 libcapstone-dev capstone-tool tzdata  
+cd Desktop/  
+git clone https://github.com/volatilityfoundation/volatility.git  
+sudo apt install -y python2 python2.7-dev libpython2-dev  
+curl https://bootstrap.pypa.io/pip/2.7/get-pip.py --output get-pip.py  
+sudo python2 get-pip.py  
+sudo python2 -m pip install -U setuptools wheel  
+python2 -m pip install -U distorm3 yara pycrypto pillow openpyxl ujson pytz ipython capstone  
+sudo python2 -m pip install yara  
+sudo ln -s /usr/local/lib/python2.7/dist-packages/usr/lib/libyara.so /usr/lib/libyara.so  
+python2 -m pip install -U git+https://github.com/volatilityfoundation/volatility.git  
+
 #set openvpn of tryhackme  
 find vpn button  
 ![vpn](vpn.png)  
-choose openvpn  
+choose import
 ![choosevpn](choosevpn.png)  
 ok  
 ![okvpn](okvpn.png)  

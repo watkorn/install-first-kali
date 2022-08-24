@@ -52,3 +52,7 @@ uncomment line 126 (delete #) and make it look like | autologin-user=kali
 Ctrl + O to save  
 Ctrl + X to quit  
 reboot  
+
+#pdfinfo  
+sudo apt install poppler-utils  
+

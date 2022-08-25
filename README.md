@@ -56,3 +56,9 @@ reboot
 #pdfinfo  
 sudo apt install poppler-utils  
 
+#image slicer  
+pip install image-slicer  
+
+#Pillow
+sudo pip install Pillow
+

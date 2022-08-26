@@ -64,6 +64,6 @@ sudo apt install poppler-utils
 #image slicer  
 pip install image-slicer  
 
-#Pillow
+#Pillow  
 sudo pip install Pillow
 

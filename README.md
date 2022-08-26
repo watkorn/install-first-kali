@@ -1,5 +1,5 @@
 # install-first-kali 2022.8  
-usr/pass : kali/kali  
+-usr/pass : kali/kali  
 sudo apt update  
 sudo apt upgrade  
 
@@ -36,11 +36,16 @@ sudo ln -s /usr/local/lib/python2.7/dist-packages/usr/lib/libyara.so /usr/lib/li
 python2 -m pip install -U git+https://github.com/volatilityfoundation/volatility.git  
 
 #set openvpn of tryhackme  
-find vpn button  
+-find vpn button  
+
 ![vpn](vpn.png)  
-choose import  
+
+-choose import  
+
 ![choosevpn](choosevpn.png)  
-ok  
+
+-ok  
+
 ![okvpn](okvpn.png)  
 
 #set auto login  
@@ -48,10 +53,10 @@ sudo updatedb
 cat /etc/X11/default-display-manager  
 locate lightdm.conf  
 sudo nano -l /etc/lightdm/lightdm.conf  
-uncomment line 126 (delete #) and make it look like | autologin-user=kali  
-Ctrl + O to save  
-Ctrl + X to quit  
-reboot  
+-uncomment line 126 (delete #) and make it look like | autologin-user=kali  
+-Ctrl + O to save  
+-Ctrl + X to quit  
+-reboot  
 
 #pdfinfo  
 sudo apt install poppler-utils  

@@ -4,7 +4,7 @@ sudo apt update
 sudo apt upgrade  
 
 #chrome install  
-cd Download/
+cd Downloads/  
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb  
 sudo apt install gdebi-core  
 sudo gdebi google-chrome-stable_current_amd64.deb  

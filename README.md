@@ -68,8 +68,4 @@ pip install image-slicer
 sudo pip install Pillow
 
 #sherlock  
-cd Desktops/  
-git clone https://github.com/sherlock-project/sherlock.git  
-cd sherlock  
-python3 -m pip install -r requirements.txt  
-python3 sherlock --help  
+sudo apt install sherlock
